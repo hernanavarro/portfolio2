@@ -14,13 +14,15 @@ import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { AboutComponent } from './about/about.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     AboutComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    ContactComponent
   ],
     imports: [
         BrowserModule,

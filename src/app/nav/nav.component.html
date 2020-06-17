@@ -4,14 +4,14 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-      <div class="presentation">
+      <div class="presentation" >
         <img src="assets/perfil.png " alt="" class="profile-image"/>
-        <h2 style="color: black" href="#">HERNÁN NAVARRO</h2>
+        <h2 style="color: black" class="alineado" href="#">HERNÁN NAVARRO</h2>
       </div>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item routerLink="/principal">Principal</a>
+      <a mat-list-item routerLink="/about">Sobre mí</a>
+      <a mat-list-item routerLink="/contact">Contacto</a>
     </mat-nav-list>
   </mat-sidenav>
 
@@ -28,7 +28,8 @@
       </button>
       <span style="color: white" >Portafolio</span>
     </mat-toolbar>
-    <app-principal></app-principal>
+
+    <router-outlet></router-outlet>
       <!-- Add Content Here -->
   </mat-sidenav-content>
 </mat-sidenav-container>

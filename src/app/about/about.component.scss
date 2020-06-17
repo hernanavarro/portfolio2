@@ -1,0 +1,22 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+.preguntas{
+  font-size: 22px;
+}
+.datos{
+  font-size: 8px;
+}
+.img-back{
+  width: 100%;
+  height: 100%;
+  background-image: url("src/assets/fondo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
