@@ -1,0 +1,34 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: #310505;
+}
+.color-toolbar{
+  background-color: #310505 ;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.profile-image{
+  z-index: 2;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.img-back{
+  width: 100%;
+  height: 350px;
+  background-image: url("src/assets/setup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
