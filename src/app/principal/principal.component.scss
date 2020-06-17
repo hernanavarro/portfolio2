@@ -3,9 +3,9 @@
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
+  vertical-align: text-top;
+
 }
 .img-back{
   width: 100%;
@@ -13,20 +13,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("src/assets/setup.jpg");
+  background-image: url("src/assets/setup.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .font-principal{
+  vertical-align: text-bottom;
   font-size: 35px;
   font-family: "Bookman Old Style";
-  align-items: center;
+  text-align: center;
+  align-content: center;
 }
 .font-secundario{
   font-size: 12px;
   font-family: "Bookman Old Style";
-  alignment: center;
+  text-align: center;
+  align-content: center;
 }
 .presentation{
   align-content: center;

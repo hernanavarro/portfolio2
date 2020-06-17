@@ -9,6 +9,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'principal', component: PrincipalComponent},
   {path: 'contact', component: ContactComponent},
+  {path: '', component: PrincipalComponent},
 
 ];
 
