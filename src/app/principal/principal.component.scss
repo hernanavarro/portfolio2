@@ -31,6 +31,20 @@
   text-align: center;
   align-content: center;
 }
-.presentation{
-  align-content: center;
+.container {
+  display: grid;
+  grid-template-columns: min-content;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  .presentation {
+    align-content: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .foto {
+    align-content: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }
